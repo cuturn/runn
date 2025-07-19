@@ -1,0 +1,10 @@
+
+
+[tools]
+gh = "latest"
+node = "22"
+
+[tasks.init]
+run = [
+    "npm install -g @anthropic-ai/claude-code",
+]
